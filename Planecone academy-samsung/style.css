@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "abulition";
+    src: url("Poppins");
+}
+body{
+    font-family: var("abulition");
+    margin: 0;
+}
+section{
+    font-family:'Roboto', sans-serif; ;
+}
+
+
+/*  header*/
+
+
+.main-nav{
+    display:flex;
+}
+.nav-items{
+    display:flex;
+   justify-content: space-between;
+}
+.nav-items li{
+    list-style: none;
+    margin: 20px;
+    align-items: flex-end;
+    color:black;
+}
+.nav-items {
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*layots*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.col-2{
+width: calc(100%/2- 40px);
+flex: 1 0;
+
+}
+.col-4{
+width: calc(100%/4- 40px);
+flex:1 0;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.align-end{
+    align-items: center;
+}
+
+
+/*hero-section*/
+
+.hero-section .col-2{
+    align-self: center;
+}
+.hero-section{
+    background-image: url(/img/image\ 1.png);
+    width: 100%;
+    height: 60vw;
+    background-size: cover;
+    margin: 0 0;
+}
+.hero-section{
+    position: relative;
+}
+.hero-section h1{
+   position: absolute;
+    color: black;
+    font-size: 3rem;
+}
+.img .su-img{
+    background-image: url(/img/image\ 5.png);
+    width: 100%;
+    height: 40vw;
+    background-size: cover;
+    margin: 0 0;
+}
+.img-2 .su-img2{
+    background-image: url(/img/image\ 6.png);
+    width: 100%;
+    height: 40vw;
+    background-size: cover;
+    margin: 0 0;
+}
+
+
+.imgg{
+    width: 100%;
+    height: 25vw;
+    background-size: cover;
+    margin: 0 0;
+}
+.service{
+    position: relative;
+}
+.img .img-2{
+    position: absolute;
+}
+.P1{
+    background-image: url(/img/image\ 7.png);
+}
+.P2{
+    background-image: url(/img/image\ 7\ \(1\).png);
+}
+.P3{
+    background-image: url(/img/image\ 7\ \(2\).png);
+}
+.P4{
+    background-image: url(/img/image\ 7\ \(3\).png);
+}
+.P5{
+    background-image: url(/img/image\ 7\ \(4\).png);
+}
+.P6{
+    background-image: url(/img/image\ 7\ \(5\).png);
+}
+.P7{
+    background-image: url(/img/image\ 8.png);
+}
+.P8{
+    background-image: url(/img/image\ 8\ \(1\).png);
+}
+.P1 .P2 .P3 .P4 .P5 .P6 .P7 .P8{
+    position: relative;
+}
+.P1 .P2 .P3 .P4 .P5 .P6 .P7 .P8  h2{
+    position: absolute;
+    color: black;
+    font-size: 2rem;
+    
+}
+
+
+
+
+.footer-section{
+   background-color: white;
+    color: black;
+}
+.image-pro{
+    width: 40px;
+    border-radius: 20px;
+}
